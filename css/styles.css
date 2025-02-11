@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.barra {
+    height: 8vh;
+}
+.catalogo {
+    display: flex;
+    height: 77vh;
+}
+.productos {
+    width: 70%;
+    padding: 20px;
+    overflow-y: auto;
+}
+.carrito {
+    width: 30%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+}
+.footer {
+    height: 15vh;
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
