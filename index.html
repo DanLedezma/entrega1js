@@ -1,25 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Simulador Interactivo</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-
-
-<body>
-    <div class="container mt-5">
-        <h1 class="text-center">Carrito de compras </h1>
-        <p class="text-center"></p>
-        <p class="text-center">Para ejecutar el simulador, abre la consola de tu navegador (F12 o Ctrl + Shift + I) y sigue las instrucciones.</p>
-    </div>
-    <script src="js/simulador.js"></script>
-</body>
-</html> -->
-
-
 <!DOCTYPE html>
 <html lang = "es">
 <head>
@@ -43,12 +21,124 @@
     
     <div class="catalogo">
         <section class="productos bg-light">
-            <h2>Productos</h2>
-            <p>Aquí se listarán los productos para agregar al carrito.</p>
+            <!-- ********************************************************* -->
+            <div class="productos">
+                <!-- producto 1 -->
+                <div class="productosCard">
+                  <img src="img/ipad-amarillo.jpg" alt="iPad Amarillo" class="productosCard--img">
+                  <div class="productosCard--titulo">
+                    <h5>iPad 256 GB (2024) </h5>
+                    <p class="productosCard--descripcion">Wi-Fi 6 (802.11ax) iPadOS 16 Amarillo, modelo 2024, con applecare incluido</p>
+                    <p class="productosCard--precios">
+                      <span class="original">$9,991.80 MXN</span><br>
+                      <span class="oferta">$9,211.16 MXN</span>
+                    </p>
+                    <p class="disponibles">Sin existencia </p>
+                    <button class="productosCard--boton">Notificarme
+                  </div>
+                </div>
+    
+                <div class="productosCard">
+                  <img src="img/ipad-azul.jpg" alt="iPad Azul" class="productosCard--img">
+                  <div class="productosCard--titulo">
+                    <h5>iPad 256 GB (2024) </h5>
+                    <p class="productosCard--descripcion">Wi-Fi 6 (802.11ax) iPadOS 17, color azul, modelo 2024, con applecare incluido</p>
+                    <p class="productosCard--precios">
+                      <span class="original">$9,991.80 MXN</span><br>
+                      <span class="oferta">$9,111.56 MXN</span>
+                    </p>
+                    <p class="disponibles">Existencia: 10 </p>
+                    <button class="productosCard--boton">Agregar al Carrito
+                  </div>
+                </div>
+    
+                <div class="productosCard">
+                    <img src="img/ipad-rosa.jpg" alt="iPad Rosa" class="productosCard--img">
+                    <div class="productosCard--titulo">
+                      <h5>iPad 512 GB (2024) </h5>
+                      <p class="productosCard--descripcion">Wi-Fi 6 (802.11ax) iPadOS 17, color rosa, modelo 2024, 512 gb almacenamiento</p>
+                      <p class="productosCard--precios">
+                        <span class="original">$10,663.90 MXN</span><br>
+                        <span class="oferta">$10,111.56 MXN</span>
+                      </p>
+                      <p class="disponibles">Existencia: 10 </p>
+                      <button class="productosCard--boton">Agregar al Carrito
+                    </div>
+                  </div> 
+
+                  <div class="productosCard">
+                    <img src="img/ipad-pro.jpg" alt="iPad pro" class="productosCard--img">
+                    <div class="productosCard--titulo">
+                      <h5>iPad pro 512 GB (2024) </h5>
+                      <p class="productosCard--descripcion">Wi-Fi 6 (802.11ax) iPadOS 17, pro m2 modelo 2024, 512 gb almacenamiento</p>
+                      <p class="productosCard--precios">
+                        <span class="original">$18,663.90 MXN</span><br>
+                        <span class="oferta">$17,451.56 MXN</span>
+                      </p>
+                        <p class="disponibles">Existencia: 8 </p>
+                        <button class="productosCard--boton">Agregar al Carrito
+                    </div>
+                  </div> 
+
+                  <div class="productosCard">
+                    <img src="img/ipad-air1.jpg" alt="iPad Air M2" class="productosCard--img">
+                    <div class="productosCard--titulo">
+                      <h5>iPad 64 gb gris GB (2023) </h5>
+                      <p class="productosCard--descripcion">Wi-Fi 6 (802.11ax) air m2 gris, ipad air, modelo 2023, 64 gb almacenamiento</p>
+                      <p class="productosCard--precios">
+                        <span class="original">$15,063.90 MXN</span><br>
+                        <span class="oferta">$12,980.12 MXN</span>
+                      </p>
+                        <p class="disponibles">Existencia: 16 </p>
+                        <button class="productosCard--boton">Agregar al Carrito
+                    </div>
+                  </div> 
+
+                  <div class="productosCard">
+                    <img src="img/macbookPro.jpg" alt="macbook pro m4" class="productosCard--img">
+                    <div class="productosCard--titulo">
+                      <h5>Macbook pro M4 512 GB (2024) </h5>
+                      <p class="productosCard--descripcion">Wi-Fi 6 (802.11ax) macbook air m4, modelo 2024, 512 gb almacenamiento</p>
+                      <p class="productosCard--precios">
+                        <span class="original">$35,883.09 MXN</span><br>
+                        <span class="oferta">$31,002.00 MXN</span>
+                      </p>
+                        <p class="disponibles">Existencia: 22 </p>
+                        <button class="productosCard--boton">Agregar al Carrito
+                    </div>
+                  </div> 
+
+                  <div class="productosCard">
+                    <img src="img/macbookAir-Azul.jpg" alt="macbook air m3" class="productosCard--img">
+                    <div class="productosCard--titulo">
+                      <h5>Macbook Air m3, 512 GB (2024) </h5>
+                      <p class="productosCard--descripcion">Wi-Fi 6 (802.11ax) macbook air m3, color azul, modelo 2024, 256 gb almacenamiento</p>
+                      <p class="productosCard--precios">
+                        <span class="original">$23,777.77 MXN</span><br>
+                        <span class="oferta">$20,056.01 MXN</span>
+                      </p>
+                        <p class="disponibles">Existencia: 0 </p>
+                        <button class="productosCard--boton">Notificarme
+                    </div>
+                  </div> 
+
+                  <div class="productosCard">
+                    <img src="img/macbookAir-morada.jpg" alt="macbook air m3" class="productosCard--img">
+                    <div class="productosCard--titulo">
+                      <h5>Macbook Air m3, 512GB (2024) </h5>
+                      <p class="productosCard--descripcion">Wi-Fi 6 (802.11ax)  macbook air m3, color gris, modelo 2024, 512 gb almacenamiento</p>
+                      <p class="productosCard--precios">
+                        <span class="original">$23,777.77 MXN</span><br>
+                        <span class="oferta">$20,056.01 MXN</span>
+                      </p>
+                      <p class="disponibles">Existencia: 19 </p>
+                      <button class="productosCard--boton">Agregar al Carrito
+                    </div>
+            </div>
+        <!-- ********************************************************* -->
         </section>
         <aside class="carrito">
             <h2>Carrito de Compras</h2>
-            <p>Aquí se mostrará el contenido del carrito.</p>
         </aside>
     </div>
     
